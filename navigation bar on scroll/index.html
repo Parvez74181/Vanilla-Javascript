@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Navigation Bar on Scroll | Vanilla JavaScript</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+     <!-- home section -->
+     <section id="home" class="section">
+          <nav class="flex">
+               <!-- logo -->
+               <div class="logo flex">
+                    AQUA.
+               </div>
+               <!-- navigations -->
+               <ul class="flex">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+               </ul>
+          </nav>
+          <main class="flex">
+               <h1>Welcome to <br> <span>AQUA.</span></h1>
+          </main>
+     </section>
+
+     <!-- about section -->
+     <section id="about" class="section flex">
+          <h2>About Us</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, quisquam.</p>
+
+          <div class="container flex">
+               <img src="https://images.unsplash.com/photo-1670765143895-8ea453c03da0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
+                    loading="lazy">
+               <div class="content">
+                    <ul class="flex">
+                         <li class="flex active">
+                              <a id="history" class="flex">History</a>
+                         </li>
+                         <li class="flex">
+                              <a id="vision" class="flex">Vision</a>
+                         </li>
+                         <li class="flex">
+                              <a id="goal" class="flex">Goal</a>
+                         </li>
+                    </ul>
+                    <div class="text"></div>
+               </div>
+          </div>
+
+     </section>
+
+     <!-- services section -->
+     <section id="services" class="section flex">
+          <h2>Our Services</h2>
+          <div class="service-container flex">
+               <!-- car -->
+               <div class="content">
+                    <img src="https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                         loading="lazy">
+                    <h3>Car</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, qui!</p>
+                         <button type="button">Read More</button>
+               </div>
+               <!-- hotel -->
+               <div class="content">
+                    <img src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWx8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+                         loading="lazy">
+                    <h3>Hotel</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, qui!</p><button
+                              type="button">Read More</button>
+               </div>
+               <!-- food -->
+               <div class="content">
+                    <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                         alt="">
+                    <h3>Food</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, qui!</p><button
+                              type="button">Read More</button>
+               </div>
+
+          </div>
+     </section>
+
+     <!-- contact section -->
+     <section id="contact" class="section flex">
+          <h2>Contact Us</h2>
+          <form>
+               <div class="user-data flex">
+                    <div class="user-name">
+                         <input id="name" type="text">
+                         <label for="name">Enter Your Name</label>
+                    </div>
+                    <div class="user-email">
+                         <input id="email" type="email">
+                         <label for="email">Enter Your Email</label>
+                    </div>
+                    <div class="user-message">
+                         <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                         <label for="message">Enter Your Message</label>
+                    </div>
+                    <button type="button">Send Message</button>
+               </div>
+          </form>
+     </section>
+     <script src="script.js"></script>
+</body>
+
+</html>
