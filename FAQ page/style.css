@@ -1,74 +1,76 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,600;0,500;1,100&display=swap');
 
 * {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
-          font-family: 'Poppins', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
 }
 
 .flex {
-          display: flex;
-          justify-content: space-between;
-          align-items: center;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
 }
 
 main {
 
-          width: 100vw;
-          height: 100vh;
-          flex-direction: column;
-          justify-content: center !important;
-          background: #fdf9de;
+     width: 100vw;
+     height: 100vh;
+     flex-direction: column;
+     justify-content: center !important;
+     background: #fdf9de;
 }
 
 main h1 {
-          margin-bottom: 5rem;
-          color: #FF7F11;
-          font-family: cursive;
+     margin-bottom: 5rem;
+     color: #FF7F11;
+     font-family: cursive;
 }
 
 main .container {
-          margin: 1rem;
-          padding: 1rem;
-          border-radius: 5px;
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-          background: #fff;
-          width: 25rem;
+     position: relative;
+     margin: 1rem;
+     padding: 1rem;
+     border-radius: 5px;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+     background: #fff;
+     width: 50%;
 }
 
 main .container p {
-          color: #FF7F11;
-          font-weight: 500;
+     color: #FF7F11;
+     font-weight: 500;
 }
 
 main .container span {
-          color: #FF7F11;
-          border: 1px solid #FF7F11;
-          width: 1rem;
-          height: 1rem;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 1.2rem;
-          cursor: pointer;
+     color: #FF7F11;
+     border: 1px solid #FF7F11;
+     width: 1rem;
+     height: 1rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.2rem;
+     cursor: pointer;
 }
 
 main .details {
-          width: 25rem;
-          position: relative;
-          padding: 1rem;
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-          border-radius: 5px;
-          background: #fff;
-          color: #1c1c1c;
-          display: none;
-          scale: 0;
-          transform: display 0.3s;
-          transform-origin: center center;
+     position: relative;
+     width: 50%;
+     position: relative;
+     padding: 1rem;
+     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+     border-radius: 5px;
+     background: #fff;
+     color: #1c1c1c;
+     display: none;
+     scale: 0;
+     transform: display 0.3s;
+     transform-origin: center center;
 }
 
 main .details.active {
-          display: initial;
-          scale: 1;
+     display: initial;
+     scale: 1;
 }

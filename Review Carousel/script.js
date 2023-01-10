@@ -59,3 +59,8 @@ previousButton.addEventListener("click", () => {
   }
   review(currentItem);
 });
+
+setInterval(() => {
+  currentItem++;
+  review(currentItem);
+}, 3000);

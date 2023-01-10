@@ -38,3 +38,8 @@ rightBtn.addEventListener("click", () => {
   if (count > imgs.length) count = 1; // if count number is less then 1 then make count = 1 to show the first img
   slide(count); // call slider
 });
+
+setInterval(() => {
+  count++;
+  slide(count);
+}, 3000);
